@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Password-Generator-JS</title>
+</head>
+<body>
+<div class="main-card">
+    <!-- top-box -->
+    <div class="top-box">
+        <div class="icon-wrapper">
+            <img src="./images/key.png" alt="">
+        </div>
+        <h2>Password Generator</h2>
+        <p>
+            Creat strong and secure password to keep your account safe online.
+        </p>
+    </div>
+    <!-- show-pass-box -->
+    <div class="show-pass-box">
+        <div class="input-wrapper">
+            <input type="text">
+            <div class="circle-wrapper">
+                <button class="again-cta">
+                    <img src="./images/rotate.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="copy-text">
+           <button>
+                <img src="./images/copy.png" alt="">
+                <span>copy</span>
+           </button>
+        </div>
+    </div>
+    <!-- Pass Detail-box -->
+    <div class="pass-detail-box">
+        <div class="count-range-box">
+            <p>password count: </p>
+            <input type="text" value="100">
+        </div>
+        <div class="checkbox-wrapper">
+            <p class="lt">upprcase</p>
+            <label class="checklabel">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="checkbox-wrapper">
+            <p >Lowercase</p>
+            <label class="checklabel">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="checkbox-wrapper">
+            <p>Special Characters</p>
+            <label class="checklabel">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="checkbox-wrapper">
+            <p>Numbers</p>
+            <label class="checklabel">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
+</div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
