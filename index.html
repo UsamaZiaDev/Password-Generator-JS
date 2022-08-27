@@ -24,13 +24,13 @@
         <div class="input-wrapper">
             <input type="text">
             <div class="circle-wrapper">
-                <button class="again-cta">
+                <button class="again-cta newGenCta">
                     <img src="./images/rotate.png" alt="">
                 </button>
             </div>
         </div>
         <div class="copy-text">
-           <button>
+           <button class="copyTextCta">
                 <img src="./images/copy.png" alt="">
                 <span>copy</span>
            </button>
@@ -40,36 +40,41 @@
     <div class="pass-detail-box">
         <div class="count-range-box">
             <p>password count: </p>
-            <input type="text" value="100">
+            <input type="number" value="10" class="countRange">
         </div>
         <div class="checkbox-wrapper">
             <p class="lt">upprcase</p>
             <label class="checklabel">
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" checked="checked" class="upperCaseVal">
                 <span class="checkmark"></span>
             </label>
         </div>
         <div class="checkbox-wrapper">
             <p >Lowercase</p>
             <label class="checklabel">
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" checked="checked" class="lowerCaseVal">
                 <span class="checkmark"></span>
             </label>
         </div>
         <div class="checkbox-wrapper">
             <p>Special Characters</p>
             <label class="checklabel">
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" checked="checked" class="specialChrVal">
                 <span class="checkmark"></span>
             </label>
         </div>
         <div class="checkbox-wrapper">
             <p>Numbers</p>
             <label class="checklabel">
-                <input type="checkbox" checked="checked">
+                <input type="checkbox" checked="checked" class="numberVal">
                 <span class="checkmark"></span>
             </label>
         </div>
+    </div>
+    <!-- <div class="bottom-cta genrateBtn">
+        <button class="genratePass">
+            Genrate Password
+        </button> -->
     </div>
 </div>
 
